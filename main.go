@@ -1,9 +1,9 @@
 package main
 
 import (
-	"structural/adapter"
+	"structural/bridge"
 )
 
 func main() {
-	adapter.Do()
+	bridge.Do()
 }
