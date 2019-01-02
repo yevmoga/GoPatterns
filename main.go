@@ -1,9 +1,9 @@
 package main
 
 import (
-	"structural/bridge"
+	"structural/composite"
 )
 
 func main() {
-	bridge.Do()
+	composite.Do()
 }
