@@ -1,9 +1,10 @@
 package main
 
 import (
-	"structural/composite"
+	"fmt"
+	"structural/decorator"
 )
 
 func main() {
-	composite.Do()
+	fmt.Println(decorator.Do(&decorator.Sms{"380930000001"}))
 }
