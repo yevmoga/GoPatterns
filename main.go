@@ -1,9 +1,9 @@
 package main
 
 import (
-	"structural/flyweight"
+	"structural/proxy"
 )
 
 func main() {
-	flyweight.Do()
+	proxy.Do()
 }
