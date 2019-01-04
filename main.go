@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"structural/decorator"
+	"structural/facade"
 )
 
 func main() {
-	fmt.Println(decorator.Do(&decorator.Sms{"380930000001"}))
+	fmt.Println(facade.Do())
 }
