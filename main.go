@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"structural/facade"
+	"structural/flyweight"
 )
 
 func main() {
-	fmt.Println(facade.Do())
+	flyweight.Do()
 }
