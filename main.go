@@ -1,9 +1,10 @@
 package main
 
 import (
-	"structural/proxy"
+	"behavioral/chain_of_responsability"
+	"fmt"
 )
 
 func main() {
-	proxy.Do()
+	fmt.Println(chain_of_responsability.Do())
 }
