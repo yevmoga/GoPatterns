@@ -1,10 +1,23 @@
 package main
 
 import (
-	"behavioral/chain_of_responsability"
+	"behavioral/memento"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(chain_of_responsability.Do())
+	originator := memento.Originator{}
+	caretaker := memento.Caretaker{}
+
+	originator.SetState("On")
+	caretaker.Memento = originator.Save()
+	fmt.Println(originator)
+
+	originator.SetState("Off")
+	fmt.Println(originator)
+
+	originator.Rollback(caretaker.Memento)
+
+	fmt.Println(originator)
+
 }
