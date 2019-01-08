@@ -1,12 +1,9 @@
 package main
 
 import (
-	"behavioral/template_method"
-	"fmt"
+	"behavioral/command"
 )
 
 func main() {
-
-	t := template_method.Xml{}
-	fmt.Println(t.Open() + t.Context() + t.Close())
+	command.Do()
 }
