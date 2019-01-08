@@ -1,9 +1,9 @@
 package main
 
 import (
-	"behavioral/command"
+	"behavioral/observer"
 )
 
 func main() {
-	command.Do()
+	observer.Do()
 }
