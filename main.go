@@ -1,9 +1,11 @@
 package main
 
 import (
-	"behavioral/observer"
+	"behavioral/visitor"
 )
 
 func main() {
-	observer.Do()
+	xmlExporter := visitor.XMLExportVisitor{}
+	circle := visitor.Circle{}
+	circle.Accept(&xmlExporter)
 }
