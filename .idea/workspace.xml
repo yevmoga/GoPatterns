@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da12fa-8e53-48b7-9f6a-ed092187ebc0" name="Default Changelist" comment="Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/creational/factory_method/factory_method_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factory_method/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factory_method/factory_method.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/builder/director.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/builder/builder.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/builder/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builder_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,17 +52,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational/factory_method/factory_method.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="525">
+              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creational/builder/director.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/builder/builder_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/builder/builder.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational/factory_method/factory_method_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -84,6 +115,7 @@
       <find>IsClick</find>
       <find>userButton</find>
       <find>CarBuilder</find>
+      <find>setG</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -103,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural/facade/house.go" />
-        <option value="$PROJECT_DIR$/src/structural/facade/child.go" />
-        <option value="$PROJECT_DIR$/src/structural/facade/facade.go" />
         <option value="$PROJECT_DIR$/src/structural/flyweight/heavy.go" />
         <option value="$PROJECT_DIR$/src/structural/flyweight/light.go" />
         <option value="$PROJECT_DIR$/src/structural/flyweight/flyweight.go" />
@@ -154,6 +183,9 @@
         <option value="$PROJECT_DIR$/src/creational/prototype/prototype_test.go" />
         <option value="$PROJECT_DIR$/src/creational/factory_method/factory_method.go" />
         <option value="$PROJECT_DIR$/src/creational/factory_method/factory_method_test.go" />
+        <option value="$PROJECT_DIR$/src/creational/builder/builder_test.go" />
+        <option value="$PROJECT_DIR$/src/creational/builder/builder.go" />
+        <option value="$PROJECT_DIR$/src/creational/builder/director.go" />
       </list>
     </option>
   </component>
@@ -168,35 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="factory_method" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,11 +284,11 @@
       <recent name="$PROJECT_DIR$/structural/adapter/remote" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/creational/builder" />
       <recent name="$PROJECT_DIR$/src/creational/factory_method" />
       <recent name="$PROJECT_DIR$/src/creational/prototype" />
       <recent name="$PROJECT_DIR$/src/creational/singleton" />
       <recent name="$PROJECT_DIR$/src/behavioral/strategy" />
-      <recent name="$PROJECT_DIR$/src/behavioral/mediator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFactoryMethod in creational/factory_method">
+  <component name="RunManager" selected="Go Test.TestBuild in creational/builder">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoPatterns" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -308,6 +312,17 @@
       <filePath value="$PROJECT_DIR$/" />
       <package value="GoPatterns" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBuild in creational/builder" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoPatterns" />
+      <working_directory value="$PROJECT_DIR$/src/creational/builder" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="creational/builder" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBuild$" />
       <method v="2" />
     </configuration>
     <configuration name="TestFactoryMethod in creational/factory_method" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -343,17 +358,6 @@
       <pattern value="^TestSingleton$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStrategy in behavioral/strategy" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoPatterns" />
-      <working_directory value="$PROJECT_DIR$/src/behavioral/strategy" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="behavioral/strategy" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestStrategy$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="GoPatterns" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -377,30 +381,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBuild in creational/builder" />
         <item itemvalue="Go Test.TestFactoryMethod in creational/factory_method" />
         <item itemvalue="Go Test.TestPrototype in creational/prototype" />
         <item itemvalue="Go Test.TestSingleton in creational/singleton" />
         <item itemvalue="Go Test.go test behavioral/strategy" />
-        <item itemvalue="Go Test.TestStrategy in behavioral/strategy" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStrategy_in_behavioral_strategy - 2019.01.11 at 11h 24m 06s.xml">
-      <configuration name="TestStrategy in behavioral/strategy" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestStrategy_in_behavioral_strategy - 2019.01.11 at 11h 24m 23s.xml">
-      <configuration name="TestStrategy in behavioral/strategy" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestStrategy_in_behavioral_strategy - 2019.01.11 at 11h 29m 37s.xml">
-      <configuration name="TestStrategy in behavioral/strategy" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_behavioral_strategy - 2019.01.11 at 11h 29m 42s.xml">
-      <configuration name="go test behavioral/strategy" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSingleton_in_creational_singleton - 2019.01.12 at 10h 22m 02s.xml">
-      <configuration name="TestSingleton in creational/singleton" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestSingleton_in_creational_singleton - 2019.01.12 at 10h 24m 00s.xml">
       <configuration name="TestSingleton in creational/singleton" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -416,6 +405,21 @@
     <history-entry file="TestFactoryMethod_in_creational_factory_method - 2019.01.12 at 10h 30m 49s.xml">
       <configuration name="TestFactoryMethod in creational/factory_method" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestFactoryMethod_in_creational_factory_method - 2019.01.12 at 10h 31m 35s.xml">
+      <configuration name="TestFactoryMethod in creational/factory_method" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBuild_in_creational_builder - 2019.01.12 at 10h 34m 09s.xml">
+      <configuration name="TestBuild in creational/builder" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBuild_in_creational_builder - 2019.01.12 at 10h 35m 02s.xml">
+      <configuration name="TestBuild in creational/builder" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBuild_in_creational_builder - 2019.01.12 at 10h 35m 13s.xml">
+      <configuration name="TestBuild in creational/builder" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBuild_in_creational_builder - 2019.01.12 at 10h 35m 20s.xml">
+      <configuration name="TestBuild in creational/builder" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
@@ -426,8 +430,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32776618" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770356" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46242172" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39770356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -451,13 +455,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Factory Method" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/creational/builder/builder.go</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="GoApplicationRunConfiguration">
         <watch expression="data.Text" language="go" />
-      </configuration>
-      <configuration name="GoTestRunConfiguration">
-        <watch expression="currentBook" language="go" />
-        <watch expression="shelf" language="go" />
       </configuration>
     </watches-manager>
   </component>
@@ -501,27 +511,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural/facade/facade.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/facade/tree.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/decorator/facebook.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural/flyweight/heavy.go" />
     <entry file="file://$PROJECT_DIR$/src/structural/flyweight/light.go" />
     <entry file="file://$PROJECT_DIR$/src/structural/flyweight/flyweight.go">
@@ -837,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/factory_method/factory_method.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational/prototype/prototype_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -854,10 +836,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/factory_method/factory_method.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational/factory_method/factory_method_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/builder/builder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/builder/builder_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/builder/director.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>

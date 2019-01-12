@@ -68,7 +68,7 @@ func (carManual *CarManualBuilder) setSeats(seats int) {
 }
 
 func (carManual *CarManualBuilder) setGPS() {
-	carManual.seats = "car has default GPS"
+	carManual.gps = "car has default GPS"
 }
 
 func (carManual *CarManualBuilder) toString() string {
