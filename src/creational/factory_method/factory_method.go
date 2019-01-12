@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 type Productor interface {
 	Do() string
 }
@@ -42,15 +38,4 @@ func (ConcreteCreatorA) FactoryMethod() Productor {
 
 func (ConcreteCreatorB) FactoryMethod() Productor {
 	return ConcreteProductB{"Product B"}
-}
-
-func main() {
-	fmt.Println("Factory Method")
-
-	var creatorA Creator = ConcreteCreatorA{}
-	var creatorB Creator = ConcreteCreatorB{}
-
-	fmt.Println(creatorA.FactoryMethod().Do())
-	fmt.Println(creatorB.FactoryMethod().Do())
-
 }
