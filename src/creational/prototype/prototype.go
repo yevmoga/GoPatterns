@@ -1,16 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	p1 := PrototypeOne{}
-	p1.SetName("One")
-	p2 := p1.Clone()
-	p2.SetName("Two")
-	fmt.Println(p1.GetName())
-	fmt.Println(p2.GetName())
-}
-
 type Prototyper interface {
 	SetName(string)
 	GetName() string

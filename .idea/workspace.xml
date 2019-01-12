@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da12fa-8e53-48b7-9f6a-ed092187ebc0" name="Default Changelist" comment="Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/creational/singleton/singleton_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/singleton/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/singleton.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/prototype/prototype_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/prototype/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/prototype.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -40,8 +39,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="11" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creational/prototype/prototype.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creational/prototype/prototype_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -86,8 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/structural/decorator/decorator.go" />
-        <option value="$PROJECT_DIR$/src/structural/decorator/sms.go" />
         <option value="$PROJECT_DIR$/src/structural/decorator/facebook.go" />
         <option value="$PROJECT_DIR$/src/structural/facade/tree.go" />
         <option value="$PROJECT_DIR$/src/structural/facade/house.go" />
@@ -135,8 +153,10 @@
         <option value="$PROJECT_DIR$/src/behavioral/strategy/strategy.go" />
         <option value="$PROJECT_DIR$/src/behavioral/strategy/strategy_test.go" />
         <option value="$PROJECT_DIR$/src/behavioral/strategy/context.go" />
-        <option value="$PROJECT_DIR$/src/creational/singleton/singleton_test.go" />
         <option value="$PROJECT_DIR$/src/creational/singleton/singleton.go" />
+        <option value="$PROJECT_DIR$/src/creational/singleton/singleton_test.go" />
+        <option value="$PROJECT_DIR$/src/creational/prototype/prototype.go" />
+        <option value="$PROJECT_DIR$/src/creational/prototype/prototype_test.go" />
       </list>
     </option>
   </component>
@@ -151,7 +171,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Default Changelist'; set:Default Changelist; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GoPatterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="creational" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="prototype" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,19 +211,6 @@
               <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -248,11 +283,11 @@
       <recent name="$PROJECT_DIR$/structural/adapter/remote" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/creational/prototype" />
       <recent name="$PROJECT_DIR$/src/creational/singleton" />
       <recent name="$PROJECT_DIR$/src/behavioral/strategy" />
       <recent name="$PROJECT_DIR$/src/behavioral/mediator" />
       <recent name="$PROJECT_DIR$/src/behavioral/state" />
-      <recent name="$PROJECT_DIR$/src/behavioral/iterator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSingleton in creational/singleton">
+  <component name="RunManager" selected="Go Test.TestPrototype in creational/prototype">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoPatterns" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -276,17 +311,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <package value="GoPatterns" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestIterator in behavioral/mediator" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoPatterns" />
-      <working_directory value="$PROJECT_DIR$/src/behavioral/mediator" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="behavioral/mediator" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestIterator$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMediator in behavioral/mediator" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -298,6 +322,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestMediator$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPrototype in creational/prototype" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoPatterns" />
+      <working_directory value="$PROJECT_DIR$/src/creational/prototype" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="creational/prototype" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPrototype$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSingleton in creational/singleton" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -345,18 +380,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPrototype in creational/prototype" />
         <item itemvalue="Go Test.TestSingleton in creational/singleton" />
         <item itemvalue="Go Test.go test behavioral/strategy" />
         <item itemvalue="Go Test.TestStrategy in behavioral/strategy" />
         <item itemvalue="Go Test.TestMediator in behavioral/mediator" />
-        <item itemvalue="Go Test.TestIterator in behavioral/mediator" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMediator_in_behavioral_mediator - 2019.01.10 at 17h 48m 26s.xml">
-      <configuration name="TestMediator in behavioral/mediator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestMediator_in_behavioral_mediator - 2019.01.10 at 17h 48m 58s.xml">
       <configuration name="TestMediator in behavioral/mediator" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -383,6 +415,9 @@
     </history-entry>
     <history-entry file="TestSingleton_in_creational_singleton - 2019.01.12 at 10h 24m 22s.xml">
       <configuration name="TestSingleton in creational/singleton" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPrototype_in_creational_prototype - 2019.01.12 at 10h 27m 24s.xml">
+      <configuration name="TestPrototype in creational/prototype" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -469,20 +504,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/structural/decorator/decorator.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/decorator/sms.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structural/facade/child.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -809,20 +830,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton_test.go">
+    <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="11" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton.go">
+    <entry file="file://$PROJECT_DIR$/src/creational/prototype/prototype.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creational/prototype/prototype_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
