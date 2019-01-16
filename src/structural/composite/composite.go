@@ -1,20 +1,19 @@
 package composite
 
-import "fmt"
+type compositer interface {
+	GetPrice() int
+}
 
-func Do() {
+type composite struct {
+	price     int
+	composits []compositer
+}
 
-	composite := composite{
-		price:     1,
-		composits: []compositer{
-			&composite{price:2},
-			&composite{composits: []compositer{
-				&composite{price:3},
-				&composite{price:4},
-			},},
-		},
+func (currentComposite *composite) GetPrice() int {
+	if currentComposite.composits != nil {
+		for _, composite := range currentComposite.composits {
+			currentComposite.price += composite.GetPrice()
+		}
 	}
-
-	fmt.Println(composite.GetPrice())
-
+	return currentComposite.price
 }
