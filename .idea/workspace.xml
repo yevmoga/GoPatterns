@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da12fa-8e53-48b7-9f6a-ed092187ebc0" name="Default Changelist" comment="Factory Method">
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/bridge_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridge/json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structural/adapter/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/adapter/adapter_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/bridge/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/bridge/bridge.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/bridge/bridge.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structural/bridge/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/structural/bridge/xml.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,37 +32,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural/flyweight/flyweight.go">
+        <entry file="file://$PROJECT_DIR$/src/structural/bridge/bridge.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural/bridge/xml.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/structural/bridge/json.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural/adapter/adapter_test.go">
+        <entry file="file://$PROJECT_DIR$/src/structural/bridge/bridge_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural/adapter/adapter.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/structural/adapter/remote/service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#16#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,11 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/behavioral/memento/memento.go" />
-        <option value="$PROJECT_DIR$/src/behavioral/memento/create.go" />
-        <option value="$PROJECT_DIR$/src/behavioral/template_method/template_method.go" />
-        <option value="$PROJECT_DIR$/src/behavioral/template_method/xml.go" />
-        <option value="$PROJECT_DIR$/src/behavioral/template_method/json.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/client.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/invoker.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/receiver.go" />
@@ -152,10 +154,15 @@
         <option value="$PROJECT_DIR$/src/structural/facade/facade.go" />
         <option value="$PROJECT_DIR$/src/structural/facade/facade_test.go" />
         <option value="$PROJECT_DIR$/src/structural/adapter/adapter_test.go" />
+        <option value="$PROJECT_DIR$/src/structural/bridge/format.go" />
+        <option value="$PROJECT_DIR$/src/structural/bridge/bridge.go" />
+        <option value="$PROJECT_DIR$/src/structural/bridge/xml.go" />
+        <option value="$PROJECT_DIR$/src/structural/bridge/json.go" />
+        <option value="$PROJECT_DIR$/src/structural/bridge/bridge_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1" />
     <option name="width" value="1922" />
     <option name="height" value="1080" />
@@ -211,12 +218,6 @@
               <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structural" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -224,7 +225,14 @@
               <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="structural" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -256,18 +264,18 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/structural/facade" />
-      <recent name="$PROJECT_DIR$/src/structural/decorator" />
-      <recent name="$PROJECT_DIR$/src/structural/proxy" />
-      <recent name="$PROJECT_DIR$/src/creational/abstract_factory" />
-      <recent name="$PROJECT_DIR$/src/creational/builder" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/structural/adapter" />
       <recent name="$PROJECT_DIR$/src/structural/adapter/adapter" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/structural/adapter/remote" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/structural/bridge" />
+      <recent name="$PROJECT_DIR$/src/structural/facade" />
+      <recent name="$PROJECT_DIR$/src/structural/decorator" />
+      <recent name="$PROJECT_DIR$/src/structural/proxy" />
+      <recent name="$PROJECT_DIR$/src/creational/abstract_factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestAdapter in structural/adapter">
+  <component name="RunManager" selected="Go Test.TestBridge in structural/bridge">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoPatterns" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -291,17 +299,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <package value="GoPatterns" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestAbstractFactory in creational/abstract_factory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoPatterns" />
-      <working_directory value="$PROJECT_DIR$/src/creational/abstract_factory" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="creational/abstract_factory" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestAbstractFactory$" />
       <method v="2" />
     </configuration>
     <configuration name="TestAdapter in structural/adapter" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -313,6 +310,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestAdapter$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBridge in structural/bridge" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoPatterns" />
+      <working_directory value="$PROJECT_DIR$/src/structural/bridge" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="structural/bridge" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBridge$" />
       <method v="2" />
     </configuration>
     <configuration name="TestDecorator in structural/decorator" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -361,44 +369,44 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBridge in structural/bridge" />
         <item itemvalue="Go Test.TestAdapter in structural/adapter" />
         <item itemvalue="Go Test.TestFacade in structural/facade" />
         <item itemvalue="Go Test.TestDecorator in structural/decorator" />
         <item itemvalue="Go Test.TestProxy in structural/proxy" />
-        <item itemvalue="Go Test.TestAbstractFactory in creational/abstract_factory" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 53m 21s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 53m 27s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 53m 34s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 53m 45s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 59m 07s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 59m 13s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFacade_in_structural_facade - 2019.01.15 at 12h 15m 28s.xml">
-      <configuration name="TestFacade in structural/facade" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFacade_in_structural_facade - 2019.01.15 at 12h 15m 57s.xml">
-      <configuration name="TestFacade in structural/facade" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFacade_in_structural_facade - 2019.01.15 at 12h 15m 58s.xml">
-      <configuration name="TestFacade in structural/facade" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestAdapter_in_structural_adapter - 2019.01.16 at 14h 54m 18s.xml">
+    <history-entry file="TestAdapter_in_structural_adapter - 2019.01.16 at 15h 59m 57s.xml">
       <configuration name="TestAdapter in structural/adapter" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdapter_in_structural_adapter - 2019.01.16 at 16h 00m 14s.xml">
+      <configuration name="TestAdapter in structural/adapter" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 03m 41s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 04m 49s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 05m 06s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 05m 19s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 05m 34s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 06m 04s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 06m 08s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestBridge_in_structural_bridge - 2019.01.16 at 16h 06m 19s.xml">
+      <configuration name="TestBridge in structural/bridge" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -410,8 +418,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31419623" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770356" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31419623" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39770356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,6 +449,12 @@
           <url>file://$PROJECT_DIR$/src/creational/builder/builder.go</url>
           <line>74</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/structural/bridge/bridge_test.go</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -490,27 +504,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/behavioral/visitor/visitor.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/iterator/book.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral/iterator/iterator.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -737,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/bridge/app.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -847,8 +833,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/structural/adapter/adapter_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/xml.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/bridge.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/bridge/bridge_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#16#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
