@@ -1,7 +1,5 @@
 package flyweight
 
-import "fmt"
-
 type Flyweighter interface {
 	GetName() string
 	SetName(string)
@@ -34,15 +32,4 @@ func (f *Flyweight) GetName() string {
 
 func (f *Flyweight) SetName(name string) {
 	f.name = name
-}
-
-func Do() {
-	flyweightFactory := FlyweightFactory{}
-	flyweightFactory.GetFlyweight(100).SetName("Name 1")
-	flyweightFactory.GetFlyweight(200).SetName("Name 2")
-	flyweightFactory.GetFlyweight(300).SetName("Name 3")
-	fmt.Println(flyweightFactory.GetFlyweight(100).GetName())
-	fmt.Println(flyweightFactory.GetFlyweight(200).GetName())
-	fmt.Println(flyweightFactory.GetFlyweight(300).GetName())
-	fmt.Println(flyweightFactory.GetFlyweight(100).GetName())
 }
