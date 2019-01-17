@@ -8,23 +8,12 @@ import (
 	"behavioral/chain_of_responsability/view"
 )
 
-func Do() string {
-	d := contract.Data{true, "some text"}
-	arr := []func(*contract.Data) (contract.Stringer, error){
+func Do() []func(*contract.Data) (contract.Stringer, error) {
+
+	return []func(*contract.Data) (contract.Stringer, error){
 		auth.Do,
 		validation.Do,
 		process.Do,
 		view.Do,
 	}
-	result := ""
-
-	for _, fun := range arr {
-		funResult, err := fun(&d)
-		if err != nil {
-			return err.Error()
-		}
-		result = funResult.ToString()
-	}
-
-	return result
 }
