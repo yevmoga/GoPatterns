@@ -13,29 +13,11 @@ func (p *Publisher) Unsubscribe(subscriber subscriber) {
 	delete(p.subscribers, subscriber.GetName())
 }
 
-func (p *Publisher) NotifySubscribers() {
+func (p *Publisher) NotifySubscribers() string {
+	var whatHappen string
 	for _, single := range p.subscribers {
-		single.Update()
-	}
-}
-
-func Do() {
-
-	subscribers := []subscriber{
-		Subscriber{"Nif-Nif"},
-		Subscriber{"Naf-Naf"},
-		Subscriber{"Nouf-Nouf"},
+		whatHappen += single.Update()
 	}
 
-	publisher := Publisher{}
-	publisher.subscribers = make(map[string]subscriber)
-	for _, s := range subscribers {
-		publisher.Subscribe(s)
-	}
-
-	publisher.Unsubscribe(subscribers[0])
-	publisher.Unsubscribe(subscribers[1])
-
-	publisher.NotifySubscribers()
-
+	return whatHappen
 }

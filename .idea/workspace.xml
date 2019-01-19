@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37da12fa-8e53-48b7-9f6a-ed092187ebc0" name="Default Changelist" comment="Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/behavioral/memento/mementor_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/observer/publish_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/observer/publish.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/observer/publish.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioral/observer/subscribe.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioral/observer/subscribe.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/behavioral/memento/mementor_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="300">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -53,10 +55,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/observer/publish.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/observer/subscribe.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/observer/publish_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <folding>
+                <element signature="e#18#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/behavioral/visitor/visitor_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -100,13 +132,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/behavioral/template_method/json.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/client.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/invoker.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/receiver.go" />
         <option value="$PROJECT_DIR$/src/behavioral/command/command.go" />
-        <option value="$PROJECT_DIR$/src/behavioral/observer/subscribe.go" />
-        <option value="$PROJECT_DIR$/src/behavioral/observer/publish.go" />
         <option value="$PROJECT_DIR$/src/behavioral/iterator/book.go" />
         <option value="$PROJECT_DIR$/src/behavioral/iterator/agregator.go" />
         <option value="$PROJECT_DIR$/src/behavioral/iterator/iterator.go" />
@@ -151,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/behavioral/visitor/shape.go" />
         <option value="$PROJECT_DIR$/src/behavioral/visitor/visitor_test.go" />
         <option value="$PROJECT_DIR$/src/behavioral/memento/mementor_test.go" />
+        <option value="$PROJECT_DIR$/src/behavioral/observer/publish.go" />
+        <option value="$PROJECT_DIR$/src/behavioral/observer/subscribe.go" />
+        <option value="$PROJECT_DIR$/src/behavioral/observer/publish_test.go" />
       </list>
     </option>
   </component>
@@ -217,7 +249,7 @@
               <item name="GoPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -248,18 +280,18 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/behavioral/observer" />
+      <recent name="$PROJECT_DIR$/src/behavioral/chain_of_responsability" />
+      <recent name="$PROJECT_DIR$/src/structural/facade" />
+      <recent name="$PROJECT_DIR$/src/structural/decorator" />
+      <recent name="$PROJECT_DIR$/src/structural/proxy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/structural/adapter" />
       <recent name="$PROJECT_DIR$/src/structural/adapter/adapter" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/structural/adapter/remote" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/behavioral/chain_of_responsability" />
-      <recent name="$PROJECT_DIR$/src/structural/facade" />
-      <recent name="$PROJECT_DIR$/src/structural/decorator" />
-      <recent name="$PROJECT_DIR$/src/structural/proxy" />
-      <recent name="$PROJECT_DIR$/src/creational/abstract_factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMemento in behavioral/memento">
+  <component name="RunManager" selected="Go Test.TestObserver in behavioral/observer">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="GoPatterns" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -307,17 +339,6 @@
       <pattern value="^TestCommand$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFacade in structural/facade" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GoPatterns" />
-      <working_directory value="$PROJECT_DIR$/src/structural/facade" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="structural/facade" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestFacade$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestMemento in behavioral/memento" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoPatterns" />
       <working_directory value="$PROJECT_DIR$/src/behavioral/memento" />
@@ -327,6 +348,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestMemento$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestObserver in behavioral/observer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoPatterns" />
+      <working_directory value="$PROJECT_DIR$/src/behavioral/observer" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="behavioral/observer" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestObserver$" />
       <method v="2" />
     </configuration>
     <configuration name="TestVisitor in behavioral/visitor" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -353,30 +385,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestObserver in behavioral/observer" />
         <item itemvalue="Go Test.TestMemento in behavioral/memento" />
         <item itemvalue="Go Test.TestVisitor in behavioral/visitor" />
         <item itemvalue="Go Test.TestCommand in behavioral/command" />
         <item itemvalue="Go Test.TestChor in behavioral/chain_of_responsability" />
-        <item itemvalue="Go Test.TestFacade in structural/facade" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 53m 45s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 59m 07s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestDecorator_in_structural_decorator - 2019.01.14 at 16h 59m 13s.xml">
-      <configuration name="TestDecorator in structural/decorator" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFacade_in_structural_facade - 2019.01.15 at 19h 42m 32s.xml">
-      <configuration name="TestFacade in structural/facade" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestChor_in_behavioral_chain_of_responsability - 2019.01.17 at 14h 06m 44s.xml">
-      <configuration name="TestChor in behavioral/chain_of_responsability" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestChor_in_behavioral_chain_of_responsability - 2019.01.17 at 14h 07m 16s.xml">
       <configuration name="TestChor in behavioral/chain_of_responsability" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -391,6 +408,21 @@
     </history-entry>
     <history-entry file="TestMemento_in_behavioral_memento - 2019.01.19 at 19h 10m 47s.xml">
       <configuration name="TestMemento in behavioral/memento" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestMemento_in_behavioral_memento - 2019.01.19 at 19h 11m 48s.xml">
+      <configuration name="TestMemento in behavioral/memento" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestObserver_in_behavioral_observer - 2019.01.19 at 19h 13m 02s.xml">
+      <configuration name="TestObserver in behavioral/observer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestObserver_in_behavioral_observer - 2019.01.19 at 19h 14m 24s.xml">
+      <configuration name="TestObserver in behavioral/observer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestObserver_in_behavioral_observer - 2019.01.19 at 19h 16m 52s.xml">
+      <configuration name="TestObserver in behavioral/observer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestObserver_in_behavioral_observer - 2019.01.19 at 19h 17m 02s.xml">
+      <configuration name="TestObserver in behavioral/observer" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -492,27 +524,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/behavioral/strategy/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/strategy/strategy_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/creational/singleton/singleton_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -788,9 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/memento/memento.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral/visitor/shape.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -805,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioral/visitor/visitor_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -819,12 +820,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/memento/memento.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioral/memento/mementor_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#17#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/publish.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/visitor/visitor_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/subscribe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/observer/publish_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

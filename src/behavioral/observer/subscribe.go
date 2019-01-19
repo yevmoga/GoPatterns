@@ -4,15 +4,15 @@ import "fmt"
 
 type subscriber interface {
 	GetName() string
-	Update()
+	Update() string
 }
 
 type Subscriber struct {
 	Name string
 }
 
-func (s Subscriber) Update() {
-	fmt.Println("sending wolf email")
+func (s Subscriber) Update() string {
+	return fmt.Sprintf("sending wolf email to subscriber %s", s.Name)
 }
 
 func (s Subscriber) GetName() string {
