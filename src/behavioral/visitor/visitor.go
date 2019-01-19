@@ -1,18 +1,16 @@
 package visitor
 
-import "fmt"
-
 type Visitor interface {
-	visitSquare(Square)
-	visitCircle(Circle)
+	visitSquare(Square) string
+	visitCircle(Circle) string
 }
 
 type XMLExportVisitor struct {}
 
-func (*XMLExportVisitor) visitSquare(s Square) {
-	fmt.Println("export square to xml")
+func (*XMLExportVisitor) visitSquare(s Square) string{
+	return "export square to xml"
 }
 
-func (*XMLExportVisitor) visitCircle(c Circle) {
-	fmt.Println("export circle to xml")
+func (*XMLExportVisitor) visitCircle(c Circle) string{
+	return "export circle to xml"
 }

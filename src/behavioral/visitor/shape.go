@@ -3,7 +3,7 @@ package visitor
 type Shape interface {
 	Move(int, int)
 	Draw()
-	Accept(Visitor)
+	Accept(Visitor) string
 }
 
 type Circle struct {
@@ -19,8 +19,8 @@ func (*Circle) Draw() {
 	panic("implement me")
 }
 
-func (c *Circle) Accept(v Visitor) {
-	v.visitCircle(*c)
+func (c *Circle) Accept(v Visitor) string {
+	return v.visitCircle(*c)
 }
 
 type Square struct {
@@ -35,8 +35,6 @@ func (*Square) Draw() {
 	panic("implement me")
 }
 
-func (s *Square) Accept(v Visitor) {
-	v.visitSquare(*s)
+func (s *Square) Accept(v Visitor) string {
+	return v.visitSquare(*s)
 }
-
-
